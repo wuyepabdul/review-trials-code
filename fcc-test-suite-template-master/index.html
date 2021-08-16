@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      img {
+        width: 100px;
+        height: 100px;
+      }
+      .flex-container {
+        display: flex;
+      }
+      .flex-container > div {
+        margin: 12px;
+        padding: 22px;
+        font-size: 33px;
+      }
+      @media only screen and (max-width: 1000px) {
+        body {
+          font-size: 20px;
+        }
+      }
+      @media only screen and (max-width: 600px) {
+        body {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <!--
+
+    Hello Camper!
+
+    For now, the test suite only works in Chrome!
+    Please read the README below in the JS Editor before beginning.
+    Feel free to delete this message once you have read it.
+    Good luck and Happy Coding!
+
+    - The freeCodeCamp Team
+
+    -->
+
+    <script src="js/index.js"></script>
+
+    <script src="js/index.js"></script>
+    <header id="header">
+      we are developing a landing page
+      <img
+        src="https://images.template.net/wp-content/uploads/2017/04/Logo-Design1.jpg"
+        id="header-img"
+      />
+      <nav id="nav-bar" class="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#howItWorks">How It Works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="flex-container">
+      <div>
+        <section id="features">
+          Features
+          <video id="video" width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4" />
+            <source src="movie.ogg" type="video/ogg" />
+          </video>
+        </section>
+      </div>
+      <div><section id="howItWorks">How It Works</section></div>
+      <div>
+        <section id="pricing">
+          Pricing
+          <form id="form" action=" https://www.freecodecamp.com/email-submit">
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="email"
+              required
+            />
+            <input type="submit" id="submit" />
+          </form>
+        </section>
+      </div>
+    </div>
+    <h1>Hello World, we are software developers!</h1>
+  </body>
+</html>
